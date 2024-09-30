@@ -1,1 +1,50 @@
-/* место для вашего кода */
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 92px 24px 0;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center; 
+  width: 148px;
+  height: 105px;
+}
+
+.header__links-list {
+  display: flex; 
+  font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__links-list-item {
+  margin-left: 20px; 
+  list-style: circle;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts-list {
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+
