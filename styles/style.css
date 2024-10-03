@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 92px 24px 92px;
+  margin: 92px 24px 88px;
 }
 
 .header__menu {
@@ -140,7 +140,7 @@ body {
 }
 
 .lots {
-  margin-top: 179px;
+  margin-top: 150px;
   padding: 0 24px;
 }
 
@@ -230,7 +230,7 @@ body {
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-top: 130px;
+  margin-top: 110px;
   margin-left: 24px;
   margin-right: 24px;
 }
