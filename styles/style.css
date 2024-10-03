@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 92px 24px 96px;
+  margin: 92px 24px 86px;
 }
 
 .header__menu {
@@ -124,7 +124,7 @@ body {
   word-spacing: 20px;
   text-transform: uppercase;
   font-size: 22px;
-  padding-left: 32px;
+  padding-left: 34px;
 }
 
 .bet-button {
@@ -178,7 +178,6 @@ body {
   justify-content: space-between;
   width: auto;
   height: 100%;
-  gap: 30px;
   padding: 50px 40px;
 }
 
