@@ -82,13 +82,16 @@ body {
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: column;
   position: relative;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 30px;
-  line-height: 1.2;
+  line-height: 1.15;
+  gap: 20px;
   width: 100%;
   color: #ffffff;
   z-index: 1;
@@ -100,10 +103,12 @@ body {
 
 .aligned-text_center {
   text-align: center;
+  line-height: 1;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 1;
 }
 
 .letter-spacing {
